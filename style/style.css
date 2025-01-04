@@ -20,7 +20,7 @@
 .configBox{
     height:70vh;
     box-shadow: 0vh 4px 8px rgba(255, 255, 255, 0.5);
-    transition: transform 2s ease; 
+    
 }
 
 .configBox:hover {
