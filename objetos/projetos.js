@@ -37,6 +37,14 @@ function projeto(objeto) {
   let projetoSerializado = encodeURIComponent(JSON.stringify(objeto));
   window.location.href = `projeto.html?projeto=${projetoSerializado}`;
 }
+
+function voltaHome(){
+  window.location.href = "index.html"
+}
+
+
+
+
 // Seleciona o container onde os itens serão exibidos
 const container = document.getElementById('MeusProjetos');
 
